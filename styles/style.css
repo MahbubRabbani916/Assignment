@@ -36,6 +36,11 @@ body{
     width: 100%;
     
 }
+/* transition area  */
+.half-width img:hover{
+    transform: translate(-100px);
+    transition: transform 3s ease;
+}
 .half-width h1{
     font-size: 64px;
     color: #fff;
@@ -207,16 +212,16 @@ footer{
 /* Media Quaary for mobile */
 
 @media only screen  and (max-width:688px) {
+    /* base style  */
     body{
         margin: 0;
         padding: 0;
       
     }
+    /* Top banner area  */
     .top-banner{
         width: 100%;
     }
-    
-    
     
     .banner{
         
@@ -233,6 +238,15 @@ footer{
         width: 100%;
         margin-top: 30px;
     }
+        /* taransition  area  */
+    .half-width img:hover{
+        transform: translate(-20px);
+        transition: transform 3s ease;
+    }
+     /*--------------
+      container area
+      ------------*/
+
     .container{
         width: 80%;
         margin: 30px auto;
@@ -242,6 +256,9 @@ footer{
         grid-template-columns: repeat(1,1fr);
         
     }
+    /*-------------
+     Media section 
+    ------------------- */
     .media-banner{
         
         
@@ -266,6 +283,10 @@ footer{
         text-align: center;
     
     }
+
+    /* ------------------
+    Footer area  
+    -------------------*/
     footer{
         width: 320px;
         height: 213px;
