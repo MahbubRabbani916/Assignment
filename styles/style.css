@@ -2,11 +2,18 @@
 ------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
+
+/*-----------
+ bsae Style
+----------- */
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'poppins',sans-sarif;
 }
+/* style for header area 
+------------------------ */
 .top-banner{
     margin: 0;
     background-color: #2D25A0;
@@ -34,6 +41,9 @@ body{
     color: #fff;
 
 }
+/* -----------------
+style for button 
+---------------- */
 button{
     background-color:#E02C6D; 
     padding:10px 24px;
@@ -43,8 +53,9 @@ button{
 .fa-arrow-right{
     padding-left: 8px;
 }
-/* -------------------------------------------------------
- /* Style for button */
+/*----------
+ Hover area 
+---------------- */
  header:hover button{
     
      transition: background-color  2s ease;
@@ -52,7 +63,9 @@ button{
     font-weight: 500;
  }
 
- /* style for top section  */
+ /*---------------
+  style for container section  
+ -----------------------*/
 
  .container{
     width: 70%;
@@ -91,7 +104,10 @@ button{
 
 
 }
-/* style for players banner  */
+/*-----------------
+ style for Media section and
+ Runners up section
+-------------------------  */
 .media{
     background-color: lightblue;
 }
@@ -136,7 +152,8 @@ button{
 .heading-color{
     color: orange;
 }
-/* style for bottom are  */
+/* style for Winner teaam area
+----------------------------- */
 .winner-team{
     width: 100%;
     background-color: lightgrey;
@@ -149,7 +166,9 @@ button{
     text-align: center;
 
 }
-/* style for footer area  */
+    /* ----------------------
+         style for footer area 
+-            ------------------------- */
 footer{
     width: 483px;
     height: 213px;
@@ -170,6 +189,9 @@ footer{
     width: 80%;
 
 }
+/*------------------
+ Style for icons area
+------------------------ */
     
 .fa-dribbble-square,.fa-instagram-square,.fa-twitter-square,.fa-youtube{
     color: lightslategrey;
@@ -260,12 +282,12 @@ footer{
         font-size: 26px;
         margin:0 10px;
     }
-
-
-
-    }
+}
     
     
+/* -----------------------------------
+     ----------End------------- 
+-------------------------------------- */
     
 
 
