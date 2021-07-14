@@ -1,0 +1,261 @@
+/* google fonts links
+------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-sarif;
+}
+.top-banner{
+    background-color: #2D25A0;
+}
+
+.banner-area{
+    width: 90%;
+    margin:30px auto;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 100px 50px;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width h1{
+    font-size: 64px;
+    color: #fff;
+}
+button{
+    background-color:#E02C6D; 
+    padding:10px 24px;
+    color: #ffffff;
+    
+}
+.fa-arrow-right{
+    padding-left: 8px;
+}
+/* -------------------------------------------------------
+ /* Style for button */
+ header:hover button{
+    
+     transition: background-color  2s ease;
+     background-color: #25CCF7;
+    font-weight: 500;
+ }
+
+ /* style for top section  */
+
+ .container{
+    width: 70%;
+    margin:70px auto;
+
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.player{
+   background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   
+   padding: 15px;
+}
+
+
+.players-thumbnail img{
+    width:100%;
+   }
+
+.player-info h3{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 0;
+
+}
+.player-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-top: 8px;
+
+
+}
+/* style for players banner  */
+.media{
+    background-color: lightblue;
+}
+.media-banner{
+    width: 90%;
+    margin:50px auto;
+    
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+
+}
+.highlight-info{
+    text-align: justify;
+   padding-left: 50px;
+}
+.highlight-info h2 {
+    font-size: 48px;
+    
+}
+.highlight-info p{
+   font-size: 16px;
+   font-weight: 400;
+   color: #6C6C6C;
+   margin-top: 8px;
+}
+.highlight-info p.paragraph-color{
+    color: #fff  ;
+}
+
+
+
+.media-thumbnail{
+    width: 100%;
+}
+.media-thumbnail img{
+    width: 100%;
+
+ 
+}
+/* style for bottom are  */
+.winner-team{
+    width: 100%;
+    background-color: lightgrey;
+    
+    
+ }
+.full-width h1{
+    font-size: 48px;
+    padding: 0 30px;
+    text-align: center;
+
+}
+/* style for footer area  */
+footer{
+    width: 483px;
+    height: 213px;
+    margin: 50px auto;
+  
+}
+.footer-area{
+   
+
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo img{
+    width: 80%;
+
+}
+    
+.fa-dribbble-square,.fa-instagram-square,.fa-twitter-square,.fa-youtube{
+    color: lightslategrey;
+    margin:0 14px;
+}
+.social-icons {
+ text-decoration: none;
+}
+
+
+/* ----------------------------------------
+------------------------------------------------------------------------ */
+/* Media Quaary for mobile */
+
+@media only screen  and (max-width:688px) {
+    body{
+        margin: 0;
+        padding: 0;
+      
+    }
+    .top-banner{
+        width: 100%;
+    }
+    
+    
+    
+    .banner{
+        
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       padding: 80px 16px 60px 16px;
+      
+    }
+    .half-width h1{
+        font-size: 36px;
+        color: #fff;
+    }
+    .half-width img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .container{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .media-banner{
+        
+        
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+    
+    }
+    .media-thumbnail img{
+        margin-top: 25px;
+    }
+    .highlight-info{
+        text-align: justify;
+       padding-left: 15px;
+    }
+    .highlight-info h2 {
+        font-size: 24px;
+        
+    }
+    .full-width h1{
+        font-size: 28px;
+        padding: 0 30px;
+        text-align: center;
+    
+    }
+    footer{
+        width: 320px;
+        height: 213px;
+       margin:80px auto;
+    }
+    .logo img{
+        width: 85%;
+        
+        
+
+    }
+    .fa-dribbble-square,.fa-instagram-square,.fa-twitter-square,.fa-youtube{
+        color: lightslategrey;
+        font-size: 26px;
+        margin:0 10px;
+    }
+
+
+
+    }
+    
+    
+    
+
+
+
+
