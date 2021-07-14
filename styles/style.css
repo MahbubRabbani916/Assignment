@@ -97,6 +97,8 @@ button{
 
 }
 .highlight-info{
+    width:80%;
+    
     text-align: justify;
    padding-left: 50px;
 }
@@ -123,6 +125,9 @@ button{
     width: 100%;
 
  
+}
+.heading-color{
+    color: orange;
 }
 /* style for bottom are  */
 .winner-team{
